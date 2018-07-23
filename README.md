@@ -34,7 +34,7 @@ When prompted, add the location of the cfg and the location of the weights folde
 <!--  Add weights script Description here -->
 
 ### Testing
-In order to get the FPS, we used a Python adaption of Darknet called Darkflow [here](https://github.com/thtrieu/darkflow/tree/master/darkflow).
+In order to get the FPS, we used a Python adaptation of Darknet called Darkflow [here](https://github.com/thtrieu/darkflow/tree/master/darkflow).
 
 
 ### Web Implementation
@@ -42,4 +42,8 @@ In order to get the FPS, we used a Python adaption of Darknet called Darkflow [h
 
 2. Once converted to the JavaScript, refer to our two repositories of [tfjs-yolo-tiny](https://github.com/rachuang22/tfjs-yolo-tiny) and [tfjs-yolo-tiny-demo](https://github.com/rachuang22/tfjs-yolo-tiny-demo).
 
-3. Replace line 14 in `index_coco.js` and `index_voc.js` to a link to the resulting `.json` file from step 2.
+3. Replace line 14 in `index_coco.js` and `index_voc.js` to a link to the resulting `.json` file from Step 2:
+
+    ```javascript
+    model = await downloadModel('put your link here');
+    ```
