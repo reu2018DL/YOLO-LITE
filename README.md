@@ -15,8 +15,9 @@ Below is the COCO YOLO-LITE model performing real-time object detecion at about 
 | PASCAL VOC    | 33.57         |   21  |
 | COCO          | 12.26         |   21  |
 
-[best PASCAL cfg](https://github.com/reu2018DL/yolo-lite) [best PASCAL weights](https://github.com/reu2018DL/yolo-lite)
-[best COCO cfg](https://github.com/reu2018DL/yolo-lite)   [best COCO weights](https://github.com/reu2018DL/yolo-lite)
+[best PASCAL cfg](https://github.com/reu2018DL/yolo-lite)   [best PASCAL weights](https://github.com/reu2018DL/yolo-lite)
+
+[best COCO cfg](https://github.com/reu2018DL/yolo-lite)     [best COCO weights](https://github.com/reu2018DL/yolo-lite)
 
 
 *Note: FPS is calculated from runnig locally on a Dell XPS 13 laptop.
