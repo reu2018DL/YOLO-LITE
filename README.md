@@ -51,3 +51,9 @@ In order to get the FPS, we used a Python adaptation of Darknet called Darkflow 
     ```javascript
     model = await downloadModel('put your link here');
     ```
+    
+  ### How to prune weights
+  While we found that pruning weights by a simple threshold did not really effect the mAP or FPS somoene else may find this script useful.
+  To prune a weights file navigate to the weights.py file then run
+   ``` python weights.py WEIGHTS_FILE_NAME THRESHOLD ```
+  
